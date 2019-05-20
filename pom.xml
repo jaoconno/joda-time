@@ -800,6 +800,7 @@
   </reporting>
 
   <!-- ==================================================================== -->
+  <!--
   <distributionManagement>
     <repository>
       <id>sonatype-joda-staging</id>
@@ -816,6 +817,19 @@
     </snapshotRepository>
     <downloadUrl>https://oss.sonatype.org/content/repositories/joda-releases</downloadUrl>
   </distributionManagement>
+-->
+  <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>snapshot</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <name>release</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+    </distributionManagement>
 
   <!-- ==================================================================== -->
   <profiles>
