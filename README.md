@@ -68,7 +68,7 @@ Available in the [Maven Central repository](https://search.maven.org/search?q=g:
 
 **Gradle configuration:**
 ```groovy
-compile 'joda-time:joda-time:2.10.2'
+compile 'joda-time:joda-time:2.10.3'
 ```
 
 ![Tidelift dependency check](https://tidelift.com/badges/github/JodaOrg/joda-time)
