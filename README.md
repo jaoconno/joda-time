@@ -51,7 +51,7 @@ Various documentation is available:
 
 
 ### Releases
-[Release 2.10.2](https://www.joda.org/joda-time/download.html) is the current latest release.
+[Release 2.10.3](https://www.joda.org/joda-time/download.html) is the current latest release.
 This release is considered stable and worthy of the 2.x tag.
 It depends on JDK 1.5 or later.
 
@@ -62,7 +62,7 @@ Available in the [Maven Central repository](https://search.maven.org/search?q=g:
 <dependency>
   <groupId>joda-time</groupId>
   <artifactId>joda-time</artifactId>
-  <version>2.10.2</version>
+  <version>2.10.3</version>
 </dependency>
 ```
 
